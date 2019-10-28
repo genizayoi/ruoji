@@ -42,7 +42,7 @@ while True:
                 direction_="h"
             print("Direction:",direction_)
             format_type_ = operation_code_.strCut("!")
-            if format_type_!= "shift-jis":
+            if format_type_== "":
                 format_type_="utf-8"
             print("Format type:",format_type_)
             table_xy_list_=[]
